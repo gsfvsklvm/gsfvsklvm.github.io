@@ -1,46 +1,56 @@
 /* GENERAL */
-p, ul {margin-left: 30px;
+p, ul {
    font-size: 15px;
 }
-.grund {background-color: hsla(0, 25%, 50%, 0.1);
+.wrapper {background-color: rgba(100, 100, 155, 0.1);
+          margin: -10px;
+          height: 1300px;
 }
- span {display: block;
+.grund {background-color: white;
+        width: 400px;
+        margin: 10px 400px 50px 400px;
+        border: 1px solid rgba(100, 100, 155, 0.4);
+        box-shadow: 0 0 4px #686898;
+        padding: 80px;
+        position:relative;
+        top: 10px;
+}
+/* SPAN */
+.lasting span {display: block;
+}	
+.chapter span {display: block;
 }	
 /* TITLE */
-h1 {text-align: center;
-    padding-top: 50px; 
+h1 {text-align: center; 
     margin-bottom: 30px;
 }
 /* IMAGE */
-img {height: 200px;
-     margin-left: 50%;
-     border: 1px solid black;
-		 box-shadow: 1px 1px 2px 3px #aaa, 1px 3px 4px 6px #eee;
-		 border-radius: 5px;
-		 }
-#photo {margin-bottom: 50px;
+img {height: 150px;
+     margin-left: 140px;
+     border: 1px solid grey ;    
+     box-shadow: 1px 1px 2px 2px #aaa, 1px 2px 2px 2px #eee;
+	 border-radius: 5px;
+}
+#photo {margin-bottom: 20px;
 }
 /* CHAPTERS */
 .chapter {border-bottom: 1px solid black;
-          width: 80%;
-					position: relative;
-          left: 70px;
-					}
+         
+}
+.chapter p {margin-left: 20px
+}
 .chapter:nth-of-type(2) p {margin-top:30px;
                            margin-bottom: 40px;  
 }
 .chapter:nth-of-type(3) p:last-child {margin-top: -10px;
                                       padding-bottom: 10px;
-}							 
+}
+ul {margin-left: 30px;
+}
 /* LASTING */
-.lasting {position: relative;					
-          left: 70px;
+.lasting {
 					margin-top: 30px;
-          margin-bottom: 60px;
-}					
-	
-
-.lasting:last-of-type {padding-bottom: 80px;
+          margin-bottom: 60px;margin-left: 20px
 }
 li:last-child {padding-bottom: 10px;
 }		 
