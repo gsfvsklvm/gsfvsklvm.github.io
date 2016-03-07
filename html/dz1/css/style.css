@@ -2,18 +2,15 @@
 p, ul {
    font-size: 15px;
 }
-.wrapper {background-color: rgba(100, 100, 155, 0.1);
-          margin: -10px;
-          height: 1300px;
+body {background-color: rgba(100, 100, 155, 0.1);
 }
 .grund {background-color: white;
         width: 400px;
-        margin: 10px 400px 50px 400px;
+        margin: 0 auto;
         border: 1px solid rgba(100, 100, 155, 0.4);
         box-shadow: 0 0 4px #686898;
         padding: 80px;
-        position:relative;
-        top: 10px;
+        
 }
 /* SPAN */
 .lasting span {display: block;
@@ -52,6 +49,6 @@ ul {margin-left: 30px;
 					margin-top: 30px;
           margin-bottom: 60px;margin-left: 20px
 }
-li:last-child {padding-bottom: 10px;
+li {padding-bottom: 10px;
 }		 
 			
